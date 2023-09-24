@@ -33,7 +33,7 @@ The code is organized into several files to maintain a clean and structured proj
 
 4. **Routers**: `routers.py` defines API endpoints using FastAPI's `APIRouter`. Endpoints include listing products, creating orders, listing orders with pagination, getting order details, and updating product quantities.
 
-5. **GET Requests**: GET requests retrieve data, such as listing products or orders, with optional pagination parameters.
+5. **GET Requests**: GET requests to retrieve data, such as listing products or orders, with optional pagination parameters.
 
 6. **POST Request**: POST requests create new orders, with the request body containing order details in JSON format.
 
@@ -54,7 +54,7 @@ To run this project locally, follow these steps:
 3. Create a `.env` file with the following content:
 
 
-Replace `DATABASE_URL655555555 ` with your MongoDB connection string.
+Replace `DATABASE_URL` with your MongoDB connection string.
 
 4. Run the FastAPI application using `uvicorn main:app --reload`.
 
